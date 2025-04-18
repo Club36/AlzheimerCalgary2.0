@@ -18,7 +18,7 @@ jobs:
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_SCAFFOLD_TOOL }}'
-          projectId: alzheimercalgary-v2
+          projectId: alzheimercalgary-bafac
           channelId: live
         env:
           VITE_FIREBASE_CONFIG: ${{ secrets.VITE_FIREBASE_CONFIG}}
